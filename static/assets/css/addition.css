@@ -17,16 +17,16 @@
         background-size: 150%;
         background-position: 50% 25%;
         background-repeat: no-repeat,								no-repeat,													no-repeat;
-        background-attachment: fixed,								fixed,														fixed;
+        background-attachment: scroll,								scroll,														scroll;
         z-index: -1;
         box-shadow: 5px 7px 10px rgba(200,200,200,0.5);
 		}
 
 @media (max-width: 768px) {
     #banner {
-        background-attachment: scroll;
+        background-attachment: fixed;
 	background-size: 200%;
-	background-position: 50% 25%;
+	background-position: 50% 40%;
     }
 }
 
